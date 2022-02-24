@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #D8D2CB;
+    padding: 20px;
+    height: 13vh;
+    display: flex;
+}
+
+.logo{
+    
+    height: 40px;
+    width: 50px;
+}
+.navbar_list {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+}
+.navbar_list li{
+    list-style-type: none;
+    margin-left: 80px;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: corbel;
+    font-weight: bold; 
+
+}
+
+
+.mainpage{
+    text-align: center;
+
+}
+.greeting{
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bold;
+    margin-top:50px;
+}
+.name span{
+    color: blue; 
+    font-size: 25px;
+
+}
+.detail{
+    font-family: cursive;
+}
