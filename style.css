@@ -57,3 +57,32 @@
     font-family: cursive;
     font-size: 25px;
 }
+.myportfolio{
+    background-color: forestgreen;
+    width: 100%;
+    height:  90vh;
+    grid-template-rows: 400px 150px;
+    grid-template-columns: 70% 30%; 
+    display: grid;
+
+}
+.about{
+    background-color: darkred;
+    font-size: 30px;
+    font-family: cursive;
+    justify-content:center;
+    align-items:center;
+    text-align:center ;
+}
+.picture{
+    background-color: grey;
+
+
+}
+.info{
+    background-color: lime;
+    grid-column: 1/-1;
+    font-size: 25px;
+    font-family: cursive;
+    text-align: center;
+}
