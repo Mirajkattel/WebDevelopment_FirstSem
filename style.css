@@ -45,10 +45,15 @@
     margin-top:50px;
 }
 .name span{
-    color: blue; 
-    font-size: 25px;
+    color: forestgreen; 
+    font-size: 27px;
 
+}
+.name{
+    font-family: cursive;
+    font-size: 25px;
 }
 .detail{
     font-family: cursive;
+    font-size: 25px;
 }
