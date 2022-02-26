@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*navigation bar css*/
 
 .navbar{
     background-color: #D8D2CB;
@@ -34,8 +35,11 @@
 }
 
 
+/* main page css*/
+
 .mainpage{
     text-align: center;
+    height: 90vh;
 
 }
 .greeting{
@@ -57,6 +61,23 @@
     font-family: cursive;
     font-size: 25px;
 }
+
+/*css for footer*/
+.footer{
+    height: 50px;
+    padding: 30px;
+    text-align: center;
+    background-color: black;
+}
+.footer-para{
+    font-size: 15px;
+    color: white;
+}
+
+
+/*portfolio page css*/
+
+
 .myportfolio{
     background-color: forestgreen;
     width: 100%;
