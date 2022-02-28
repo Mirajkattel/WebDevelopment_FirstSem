@@ -88,24 +88,33 @@
 
 }
 .about{
-    background-color: gray;
-    font-size: 30px;
+    
+    font-size: 25px;
     font-family: cursive;
     justify-content:center;
     align-items:center;
-    text-align:center ;
+    text-align:initial;
+    margin-left: 20px;
+    margin-top: 20px;
+    
 }
 .picture{
-    background-color: teal;
+    background-color: #D8D2CB;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-left: 1px;
+    border: 2px solid black;
 
 
 }
 .info{
-    background-color: gray;
+    
     grid-column: 1/-1;
     font-size: 20px;
     font-family: cursive;
     text-align: center;
+    margin-top: 5px;
+    border: 2px solid black;
 }
 /*css for contact form */
 
