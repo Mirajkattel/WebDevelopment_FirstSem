@@ -107,3 +107,17 @@
     font-family: cursive;
     text-align: center;
 }
+/*css for contact form */
+
+
+.contact_form{
+    height: 80vh;
+    font-size: 20px;
+    padding: 0px;
+    
+}
+.button{
+
+    font-size: 100px;
+    font-weight: bold;
+}
