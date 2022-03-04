@@ -12,11 +12,6 @@
     display: flex;
 }
 
-.logo{
-    
-    height: 40px;
-    width: 50px;
-}
 .navbar_list {
     
     display: flex;
@@ -31,9 +26,7 @@
     font-size: 17px;
     font-family: corbel;
     font-weight: bold; 
-
 }
-
 
 /* main page css*/
 
@@ -97,13 +90,14 @@
     margin-left: 20px;
     margin-top: 20px;
     
+    
 }
 .picture{
     background-color: #D8D2CB;
     margin-right: 5px;
     margin-top: 5px;
     margin-left: 1px;
-    border: 2px solid black;
+    border: 2px #D8D2CB;
 
 
 }
@@ -114,7 +108,7 @@
     font-family: cursive;
     text-align: center;
     margin-top: 5px;
-    border: 2px solid black;
+    border: 2px solid grey;
 }
 /*css for contact form */
 
@@ -150,4 +144,36 @@
     margin-left: 50px;
     margin-right: 50px;
 
+}
+/*site report css*/
+.report{
+    margin-top: 15px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 10px;
+
+
+    font-family: initial;
+    justify-content: center;
+
+}
+/*images in site report*/
+
+.github_image img{
+      width: 45%;
+      height: 380px;
+}
+.heading{
+    text-align: center;
+}
+.cs_heading{
+    text-align: center;
+}
+.css_image img{
+    width: 45%;
+    height: 380px;
+}
+.ref_head{
+    text-align: center;
 }
