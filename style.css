@@ -218,6 +218,13 @@ a.active,a:hover{
 .ref_head{
     text-align: center;
 }
+.head{
+    text-align: center;
+}
+.validation img{
+    width: 45%;
+    height: 380px;
+}
 
 
 
@@ -306,6 +313,11 @@ a.active,a:hover{
 .css_image img{
     width: 100%;
     height: 300px;
+}
+
+.validation img{
+    width: 100%;
+    height: 380px;
 }
 
 
