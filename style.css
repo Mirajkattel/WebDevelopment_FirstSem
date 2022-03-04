@@ -27,13 +27,39 @@
     font-family: corbel;
     font-weight: bold; 
 }
+.navbar_list li a{
+    text-decoration: none;
+
+}
+a.active,a:hover{
+    background-color: skyblue;
+    transition: .5s;
+}
+
+/*hamburger*/
+.checkbtn{
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+
 
 /* main page css*/
 
 .mainpage{
-    text-align: center;
+    
     height: 90vh;
-
+    width: 100%;
+    display: flex;
+}
+.information{
+    width: 50%;
+    padding: 80px;
+    height: 90vh;
 }
 .greeting{
     font-size: 30px;
@@ -53,6 +79,14 @@
 .detail{
     font-family: cursive;
     font-size: 25px;
+}
+.photo{
+    width: 50%;
+    height: 50vh;
+}
+.photo img{
+    width: 100%;
+    height: 90vh;
 }
 
 /*css for footer*/
@@ -124,6 +158,9 @@
     font-size: 100px;
     font-weight: bold;
 }
+
+
+
 /*css for blog */
 
 .blogpage{
@@ -145,6 +182,9 @@
     margin-right: 50px;
 
 }
+
+
+
 /*site report css*/
 .report{
     margin-top: 15px;
@@ -158,6 +198,7 @@
     justify-content: center;
 
 }
+
 /*images in site report*/
 
 .github_image img{
@@ -176,4 +217,121 @@
 }
 .ref_head{
     text-align: center;
+}
+
+
+
+
+
+
+/*media query*/
+
+@media screen and (max-width: 768px){
+
+    /*homepage*/
+
+    .mainpage{
+    
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    }
+    .information{
+    width: 100%;
+    height: 90vh;
+    }
+    .greeting{
+    font-size: 30px;
+    margin-top:50px;
+    }
+    .name span{
+    color: forestgreen; 
+    font-size: 27px;
+
+    }
+    .name{
+    
+    font-size: 25px;
+    }
+    .detail{
+    
+    font-size: 25px;
+    }
+
+    .photo{
+    width: 100%;
+    height: 50vh;
+    }
+    .photo img{
+    width: 100%;
+    height: 50vh;
+    }
+
+
+    /*portfolio*/
+    .myportfolio{
+     grid-template-rows: auto 150px;
+    grid-template-columns: 70% 30%;
+    display: grid;
+    height: 120vh;
+}
+
+/*blog*/
+
+    .blogpage{
+    height: auto;
+}
+
+.blogwritting{
+    text-align: center;
+    font-size: 25px;
+    height: 10vh;
+    margin-top: 10px;
+
+}
+/*site report*/
+.report{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 20px;
+
+}
+
+.github_image img{
+      width: 100%;
+      height: 300px;
+}
+
+.css_image img{
+    width: 100%;
+    height: 300px;
+}
+
+
+/*hamburger*/
+.checkbtn{
+    display: block;
+}
+.navbar_list{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 80px;
+    left: -200%;
+    text-align: center;
+    transition: all .5s;
+    background-color: grey;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.navbar_list li{
+    display: block;
+    margin: 20px 0;
+}
+#check:checked ~ .navbar_list{
+    left:  0;
+}
+
 }
